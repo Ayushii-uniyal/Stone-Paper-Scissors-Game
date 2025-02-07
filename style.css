@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 2rem;
+    padding-top: 0px;
+    background-color: rgb(176, 214, 230);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+header{
+    background-color: rgb(255, 88, 130);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    width: 60vw;
+    height: 53vh;
+    justify-content: center;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    padding: 2em;
+}
+
+.icon{
+    border: 2px solid rgb(255, 88, 130);
+    margin: 2em;
+    width: 80%;
+    height: 70%;
+    border-radius: 100px;
+    box-shadow: 2px 2px 10px black ;
+}
+
+.icon:hover{
+    box-shadow: 0 0 0 0 ;
+    cursor: pointer;
+}
+
+footer{
+    width: 70vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.play{
+    margin: 1rem;
+    height: 35%;
+    width: 40%;
+    background-color: rgb(149, 224, 27);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgb(114, 111, 111);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.play:hover{
+    background-color: rgb(124, 201, 0);
+}
+
+.play:active{
+    box-shadow: 0px 0px 0px rgb(114, 111, 111);
+    background-color: rgb(149, 224, 27);
+
+}
+
+.winner-msg{
+    font-family: 'Courier New', Courier, monospace;
+    height: 3vh;
+    width: 40vw;
+    margin-bottom: .5em;
+    font-weight: bold;
+    
+}
+.comp-choice{
+    font-family: 'Courier New', Courier, monospace;
+    height: 3vh;
+    width: 40vw;
+}
